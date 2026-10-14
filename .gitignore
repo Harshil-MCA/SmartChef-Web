@@ -1,0 +1,45 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+.kilo/
+backend/.env
+frontend/.env
+
+# Python / Django
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+*.mo
+*.pot
+backend/.venv/
+backend/venv/
+backend/staticfiles/
+backend/uploads/
+
+# Large local datasets and generated ML artifacts
+backend/datasets/
+
+# Node / Vite
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.tmp/
+frontend/*.tsbuildinfo
+
+# Test and coverage output
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Editors and operating systems
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Temporary local files
+*.tmp
+*.bak
