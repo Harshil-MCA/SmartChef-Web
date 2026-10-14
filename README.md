@@ -127,4 +127,3 @@ Do not force-push or overwrite an existing remote without an explicit review.
 Use a static frontend host for React and a managed application host for Django, backed by managed PostgreSQL. This split matches the existing architecture and keeps frontend builds independent from the API process. Configure the backend environment variables in the host dashboard, set the frontend `VITE_API_BASE_URL` at build time, run migrations before the new release receives traffic, and configure the frontend origin in both CORS and CSRF trusted origins.
 
 GitHub stores the source; it does not run Django, provide PostgreSQL, or host uploaded media by itself. No external deployment or paid resource has been created by this preparation.
-
